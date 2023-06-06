@@ -87,7 +87,9 @@ section h1 {
 .greeting h2 {
     color: cornsilk;
     font-size: 2em;
-    grid-column: 1/11;
+    font-family: 'Roboto';
+    grid-column: 1/12;
+    text-align: center;
 }
 
 .greeting p {
@@ -103,6 +105,7 @@ img {
     border-radius: 4%;
     background-color: cornsilk;
     grid-column: 1/5;
+    align-items: center;
 }
 
 .grid {
@@ -115,7 +118,7 @@ img {
 
 
 /* media queries for all devices */
-@media screen and (max-width:420px) {
+@media screen and (max-width:456px) {
     .custom-nav {
         text-align: center;
         grid-template-columns: repeat(7, 1fr);
@@ -137,16 +140,13 @@ img {
         font-size: 60px;
     }
 
+    img,
+    .greeting p {
+        grid-column: 1/12;
+    }
+
+    .greeting h2 {
+        text-align: justify;
+    }
+
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
