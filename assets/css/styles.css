@@ -95,6 +95,7 @@ section h1 {
 .greeting p {
     color: #000;
     text-align: center;
+    line-height: 1.6;
     font-family: 'Geologica';
     grid-column: 6/11;
 }
@@ -115,6 +116,10 @@ img {
 
 }
 
+footer {
+    padding: 10px;
+    text-align: center;
+}
 
 
 /* media queries for all devices */
@@ -143,10 +148,27 @@ img {
     img,
     .greeting p {
         grid-column: 1/12;
+        line-height: normal;
     }
 
     .greeting h2 {
         text-align: justify;
     }
 
+}
+
+@media screen and (max-width: 820px) {
+    .greeting p {
+        line-height: normal;
+    }
+
+    img,
+    .greeting p {
+        grid-column: 1/12;
+        line-height: normal;
+    }
+
+    .greeting h2 {
+        text-align: justify;
+    }
 }
