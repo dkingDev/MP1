@@ -2,6 +2,7 @@ body {
     background-color: rgb(172, 224, 240);
     font-size: 16px;
 }
+
 /* font styles- customized from w3schools reference */
 * {
     font-family: Geologica, PTSans, Roboto;
@@ -85,15 +86,30 @@ section h1 {
 /* greeting message */
 .greeting h2 {
     color: cornsilk;
-    margin: 20px;
-    padding: 10px;
     font-size: 2em;
+    grid-column: 1/11;
 }
 
 .greeting p {
     color: #000;
-    text-align: right;
+    text-align: center;
     font-family: 'Geologica';
+    grid-column: 6/11;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+    background-color: cornsilk;
+    grid-column: 1/5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 10px;
+
 }
 
 
