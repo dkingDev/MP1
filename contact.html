@@ -7,33 +7,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="assets/css/form.css" type="text/css">
-
-    <title>Spirits home</title>
+    <title>Contact Us - Spirits home</title>
 </head>
 
 <body>
-    <section class="outline">
-        <div class="home-img">
-            <h1><span>Spirits of the Snow</span></h1>
+    <header>
+        <img src="assets/images/logo.png" alt="logo for spirit of the snow">
+        <nav id="home-img">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="list.html">Locations</a></li>
+                <li><a href="info.html">Courses</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h3>We would love to hear from you! If you have any questions, feedback, or inquiries about our services, please
+            don't hesitate to reach out to us.</h3>
+        <p>Our dedicated team is here to assist you and provide the information you need. Fill out the form below or
+            contact us directly via email or phone. We look forward to connecting with you !</p>
+    </header>
+
+    <section class="main">
+        <div id="info">
+            <h2>Contact Us</h2>
+            <form class="form-box">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Email address" required>
+                <textarea name="message" placeholder="What would you like help with?" required></textarea>
+                <button type="submit"> Send Message</button>
+            </form>
         </div>
     </section>
 
-    <div class="custom-nav">
-        <a href="index.html">Home</a>
-        <a href="list.html">Locations</a>
-        <a href="info.html">Instructor courses</a>
-        <a href="contact.html">Contact Us</a>
-    </div>
-
-    <section>
-        <div class="contact form">
-            <h2>Contact US</h2>
-            <img src="assets/images/contact-us.png" alt="big red phone">
-            <p></p>
-        </div>
-    </section>
+    <footer class="to-top">
+        <span><a href="contact.html">back to top</a></span>
+    </footer>
     <footer>
         <span class="material-symbols-outlined">
             copyright
