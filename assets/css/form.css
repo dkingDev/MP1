@@ -41,7 +41,6 @@ section h1 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
 .main {
     display: flex;
     justify-content: space-evenly;
@@ -59,7 +58,6 @@ section h1 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-size: 62px;
 }
-
 
 /* logo style */
 header img {
@@ -101,6 +99,12 @@ nav {
 img {
     width: 100%;
     max-height: auto;
+}
+
+/* form heading/paragraph */
+h3,
+p {
+    text-align: center;
 }
 
 /* footer style */
