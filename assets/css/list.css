@@ -76,6 +76,11 @@ nav {
     z-index: 1;
 }
 
+.active {
+    background-color: white;
+    border-radius: 5px;
+}
+
 #home-img ul {
     list-style: none;
 }
