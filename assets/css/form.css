@@ -1,7 +1,7 @@
 /* styles for the contact form */
 
 body {
-    background-color: #dcdcdc;
+    background-color: #ffffff;
 
 }
 
@@ -59,18 +59,13 @@ section h1 {
     font-size: 62px;
 }
 
-/* logo style */
-header img {
-    border-radius: 10px;
-
-}
-
 /* Nav styles */
 nav {
     display: flex;
     justify-content: space-evenly;
     position: relative;
     z-index: 1;
+    background-color: #aca6a6;
 }
 
 .active {
@@ -102,8 +97,11 @@ nav {
 
 /* header image */
 img {
-    width: 100%;
-    max-height: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* form heading/paragraph */
