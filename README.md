@@ -25,16 +25,18 @@ The aim for this website, is to provide all the information for skiing activitie
 
 ### Frameworks, Programs, and Libraries
 
- - GitHub:
+ - [GitHub](https://github.com):
     - GitHub has been used to store this project.
- - Google Fonts: 
+ - [Google Fonts](https://fonts.google.com): 
     - was used to create the footer icons and to retrieve the font family files.
- - VScode:
+ - [VScode](https://code.visualstudio.com):
     - Was used along side Codeanywhere IDE as a standby when issues occurred.
- - Codeanywhere IDE:
+ - [Codeanywhere](https://codeanywhere.com/):
     - Codeanywhere has been used to code and develope this website and to push to GitHub.
- - W3schools:
+ - [W3schools](https://www.w3schools.com):
     - This CSS library was used to assist with the developement of this website.
+ - [Am I Responsive](https://ui.dev/amiresponsive):
+    - Am I Responsive was used to test display compatibilities for all devices.
 
 ## Features
 
@@ -70,6 +72,19 @@ All testing for the website was done via a web based validator:
 ![Validation](assets/images/css-valid.png)
 ![Validation](assets/images/html-valid.png)
 
+## Deployment
+
+This website is deployed using GitHub Pages. The following steps to deploy are as follows:
+  1. Once signed in to GitHub, go to your GitHub repository.
+  2. Click on the "settings" option at the top right of your repositary.
+  3. Scroll down to the "GitHub Pages" section.
+  4. In the "Source" section, select the branch (Main or Master)
+  5. Once the branch and directory is selected, click on the "save" button.
+  6. Wait a few moments, to allow the GitHub Pages to generate a URL.
+  7. Copy the URL provided, and the website can now be accessed via your browser.
+
+This website is live! You can it check out [here](https://dkingdev.github.io/MP1/)
+
 ## Attribute
 
 The home page image was created using  [Vista Logo](https://www.vistaprint.co.uk/logomaker).
@@ -81,5 +96,8 @@ Credit for the outline text! [kyle](https://stackoverflow.com/questions/4919076/
 Thank you for the image which is being used on the main home page [FunkyFocus](https://pixabay.com/photos/ski-snow-sports-winter-mountains-2033184/)
 
 [Kirill Zenin](https://www.pexels.com/photo/people-in-a-ski-resort-10878618/) for the image which is on the locations page.
+
+## License
+This project is licenced under the MIT License - see the [LICENSE](License.txt)
 
 
