@@ -27,7 +27,14 @@ The aim for this website, is to provide all the information for skiing activitie
 
  - GitHub:
     - GitHub has been used to store this project.
- - Google Fonts was used to create the footer icons and to retrieve the font family files.
+ - Google Fonts: 
+    - was used to create the footer icons and to retrieve the font family files.
+ - VScode:
+    - Was used along side Codeanywhere IDE as a standby when issues occurred.
+ - Codeanywhere IDE:
+    - Codeanywhere has been used to code and develope this website and to push to GitHub.
+ - W3schools:
+    - This CSS library was used to assist with the developement of this website.
 
 ## Features
 
@@ -54,6 +61,15 @@ The color palette below was created using [Cooloers](https://coolors.co)
 
 ![My color palette](assets/images/colorpalette.png)
 
+## Tesing
+
+All testing for the website was done via a web based validator:
+- CSS Validator [jigsaw](https://jigsaw.w3.org/css-validator/) 
+- HTML Validator [W3C](https://validator.w3.org)
+
+![Validation](assets/images/css-valid.png)
+![Validation](assets/images/html-valid.png)
+
 ## Attribute
 
 The home page image was created using  [Vista Logo](https://www.vistaprint.co.uk/logomaker).
@@ -61,5 +77,9 @@ The home page image was created using  [Vista Logo](https://www.vistaprint.co.uk
 Credit for the outline text! [kyle](https://stackoverflow.com/questions/4919076/outline-effect-to-text).
 
 [TheDigitalArtist](https://pixabay.com/illustrations/contact-us-help-desk-contact-help-1524408/) for the Contact us image.
+
+Thank you for the image which is being used on the main home page [FunkyFocus](https://pixabay.com/photos/ski-snow-sports-winter-mountains-2033184/)
+
+[Kirill Zenin](https://www.pexels.com/photo/people-in-a-ski-resort-10878618/) for the image which is on the locations page.
 
 
