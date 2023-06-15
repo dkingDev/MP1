@@ -51,6 +51,7 @@ Google [fonts](assets/fonts)  was used for this website:
 
 The color choice for this website was chosen to keep it easy on the eyes and to blend with the images, while providing colors for importance or guidance for navigation and the "return to top" feature.
 The color palette below was created using [Cooloers](https://coolors.co)
+
 ![My color palette](assets/images/colorpalette.png)
 
 ## Attribute
