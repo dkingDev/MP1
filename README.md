@@ -4,7 +4,7 @@ This is the start of a website called Spirit of the snow, where people can easil
 
 The aim is to provide all the information for skiing activities in one place, allowing users to avoid multiple searches from their browser. Each location provided will allow users to go directly to the correct website for all information on what the sports centre provides, including opening times, contact details in full, and cost for each activity provided.
 
-![Responsive Design](assets/responsive.png)
+![Responsive Design](assets/images/responsive.png)
 
 ## Attribute
 
