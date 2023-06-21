@@ -24,9 +24,10 @@
 }
 
 .header {
-    min-height: 50vh;
+    min-height: 100vh;
     width: 100%;
-    background-image: url(/assets/images/slope.jpg);
+    background-color: rgb(255, 255, 255);
+    background-image: url(/assets/images/ski2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,7 +42,8 @@ nav {
 }
 
 nav img {
-    width: 300px;
+    width: 150px;
+    scale: 125%;
 }
 
 .nav-links {
@@ -57,8 +59,8 @@ nav img {
 
 .nav-links ul li a {
     text-decoration: none;
-    color: #fff;
-    font-size: 24px;
+    color: #aca6a6;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
@@ -83,11 +85,24 @@ nav img {
 }
 
 /* heading */
-section h1 {
-    text-align: center;
-    font-size: 80px;
-    color: cornsilk;
+#info {
+    width: 90%;
+    color: #aca6a6;
     font-family: 'Roboto', 'PTSans';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#info h1 {
+    font-size: 48px;
+}
+
+#info p{
+    margin: 5px 0px 50px;
+    color: #fff;
 }
 
 /* code to outline each letter in h1, reference from stackflow, link in README.md */
@@ -115,3 +130,9 @@ footer {
 }
 
 /* mobile first styles */
+@media (max-width:700px) {
+    #info h1 {
+        font-size: 24px;
+    }
+    
+}
