@@ -27,7 +27,7 @@
     min-height: 100vh;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    background-image: url(/assets/images/ski2.jpg);
+    background-image: url(../images/ski2.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -87,7 +87,7 @@ nav img {
 /* heading */
 #info {
     width: 90%;
-    color: #aca6a6;
+    color: cornsilk;
     font-family: 'Roboto', 'PTSans';
     position: absolute;
     top: 50%;
@@ -111,22 +111,45 @@ nav img {
 }
 
 /* footer style */
-footer {
-    padding: 10px;
-    text-align: center;
+.footer {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: auto;
+    padding: 10px 0;
+    background-color: #dcdcdc;
 }
 
-.to-top {
-    background-color: #aca6a6;
-}
-
-.to-top a {
-    color: #000;
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
     text-transform: uppercase;
 }
 
-.to-top a:hover {
-    color: rgb(255, 250, 250)
+.social>p {
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.social>a {
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.social .social-links p {
+    width: 100%;
+    margin-bottom: 2.5px;
+    text-align: center;
+}
+
+.social .social-links li {
+    display: inline-block;
+    padding: 0 10px;
 }
 
 /* mobile first styles */
