@@ -139,24 +139,46 @@ section h1 {
 }
 
 /* footer style */
-footer {
-    padding: 10px;
-    text-align: center;
+.footer {
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: auto;
+    padding: 10px 0;
+    background-color: #dcdcdc;
 }
 
-.to-top {
-    background-color: #aca6a6;
-}
-
-.to-top a {
-    color: #000;
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
     text-transform: uppercase;
 }
 
-.to-top a:hover {
-    color: rgb(255, 250, 250)
+.social>p {
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
 }
 
+.social>a {
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.social .social-links p {
+    width: 100%;
+    margin-bottom: 2.5px;
+    text-align: center;
+}
+
+.social .social-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
 /* mobile first styles */
 @media (max-width:700px) {
     #info h1 {
