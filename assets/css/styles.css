@@ -135,13 +135,11 @@ nav img {
 .social>p {
     width: 25%;
     height: 100%;
-    margin-top: 10px;
 }
 
 .social>a {
     width: 25%;
     height: 100%;
-    margin-top: 10px;
     color: rgb(0, 0, 0);
 }
 
@@ -157,6 +155,19 @@ nav img {
 }
 
 /* mobile first styles */
+
+@media screen and (max-width: 540px) {
+    .social {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social>p,
+    .social>a {
+        text-align: center;
+        width: 100%;
+    }
+}
+
 @media (max-width:700px) {
     #info h1 {
         font-size: 24px;
