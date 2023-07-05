@@ -1,11 +1,15 @@
-/* styles for the contact form */
 
 body {
     background-color: #ffffff;
 
 }
 
+/* to hide scrollbar without effecting the scroll feature */
+body::-webkit-scrollbar {
+    display: none;
+}
 /* font styles- customized from w3schools reference */
+
 * {
     font-family: Geologica, PTSans, Roboto;
     padding: 0;

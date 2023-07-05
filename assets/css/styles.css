@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+/* to hide scrollbar without effecting the scroll feature */
+body::-webkit-scrollbar {
+    display: none;
+}
 /* font styles- customized from w3schools reference */
 @font-face {
     font-family: PTSans;

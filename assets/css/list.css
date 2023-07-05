@@ -1,6 +1,10 @@
 body {
     background-color: #ffffff;
 }
+/* to hide scrollbar without effecting the scroll feature */
+body::-webkit-scrollbar {
+    display: none;
+}
 
 /* font styles- customized from w3schools reference */
 * {
@@ -183,5 +187,9 @@ section h1 {
 @media (max-width:700px) {
     #info h1 {
         font-size: 24px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
     }
 }
