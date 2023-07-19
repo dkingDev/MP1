@@ -116,17 +116,19 @@ nav img {
 
 /* footer style */
 .footer {
-    display: block;
-    overflow: hidden;
-    box-sizing: border-box;
-    width: auto;
-    padding: 10px 0;
-    background-color: #dcdcdc;
+   display :flex; 
+   justify-content :center; 
+   align-items :center; 
+   box-sizing :border-box; 
+   width :auto; 
+   padding :10px; 
+   background-color :#dcdcdc;
 }
 
 .social {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -135,18 +137,23 @@ nav img {
 .social>p {
     width: 25%;
     height: 100%;
+    font-size: 14px;
+    text-align: center;
 }
 
 .social>a {
     width: 25%;
     height: 100%;
     color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
 }
 
 .social .social-links p {
     width: 100%;
     margin-bottom: 2.5px;
     text-align: center;
+    font-size: 14px;
 }
 
 .social .social-links li {
@@ -154,6 +161,9 @@ nav img {
     padding: 0 10px;
 }
 
+.social .social-links li a:hover {
+    color: blue;
+  
 /* mobile first styles */
 
 @media screen and (max-width: 540px) {
