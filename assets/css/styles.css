@@ -43,6 +43,10 @@ body::-webkit-scrollbar {
     width: 150px;
 }
 
+.desktop {
+    display: none;
+}
+
 nav {
     display: flex;
     padding: 2% 6%;
