@@ -1,12 +1,22 @@
 
+/* css style reset */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 * {
     font-family: Geologica, PTSans, Roboto;
-    padding: 0;
     margin: 0;
+    padding: 0;
     text-decoration: none;
     list-style: none;
 }
 
+body {
+    background-color: azure;
+    line-height: 1.1;
+}
 /* to hide scrollbar without effecting the scroll feature */
 body::-webkit-scrollbar {
     display: none;
