@@ -1,4 +1,3 @@
-
 /* css style reset */
 
 *, *::before, *::after {
@@ -6,22 +5,17 @@
 }
 
 * {
-    font-family: Geologica, PTSans, Roboto;
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style: none;
 }
 
 body {
     background-color: azure;
     line-height: 1.1;
 }
-/* to hide scrollbar without effecting the scroll feature */
-body::-webkit-scrollbar {
-    display: none;
-}
+
 /* font styles- customized from w3schools reference */
+
 @font-face {
     font-family: PTSans;
     src: url(../fonts/PTSans-Regular.ttf);
@@ -36,18 +30,17 @@ body::-webkit-scrollbar {
     font-family: Geologica;
     src: url(../fonts/Geologica-Regular.ttf);
 }
-header {
-    background-color: #fff;
+
+.main-layout {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0 10px;
 }
 
-.header {
-    min-height: 100vh;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    background-image: url(../images/ski2.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+header {
+    background-color: #fff;
 }
 
 /* nav links */
@@ -70,7 +63,6 @@ nav {
 .nav-links ul li {
     list-style-type: none;
     padding: 6px 12px;
-    position: relative;
 }
 
 .nav-links ul li a {
@@ -101,85 +93,31 @@ nav {
     margin: auto;
 }
 
-/* heading */
-
 #info {
-    width: 90%;
-    color: cornsilk;
-    font-family: 'Roboto', 'PTSans';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: #aca6a6;
     text-align: center;
 }
 
-#info h1 {
+h1 {
     font-size: 48px;
+    font-family: 'Geologica';
 }
 
 #info p{
-    margin: 5px 0px 50px;
-    color: #fff;
-}
-
-/* code to outline each letter in h1, reference from stackflow, link in README.md */
-
-.outline {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-block: 10px;
+    color: #000000;
 }
 
 /* footer style */
 
 .footer {
    display :flex; 
-   justify-content :center; 
-   align-items :center; 
-   box-sizing :border-box; 
-   width :auto; 
+   justify-content :space-evenly;  
+   align-items: center;
    padding :10px; 
-   background-color :#dcdcdc;
+   background-color: #fff;
 }
 
-.social {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-}
-
-.social>p {
-    width: 25%;
-    height: 100%;
-    font-size: 14px;
-    text-align: center;
-}
-
-.social>a {
-    width: 25%;
-    height: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    text-align: center;
-}
-
-.social .social-links p {
-    width: 100%;
-    margin-bottom: 2.5px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.social .social-links li {
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.social .social-links li a:hover {
-    color: blue;
-  
 /* mobile first styles */
 
 @media screen and (min-width: 740px) {
@@ -197,9 +135,3 @@ nav {
    }
 }
 
-@media (max-width:700px) {
-    #info h1 {
-        font-size: 24px;
-    }
-    
-}
