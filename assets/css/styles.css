@@ -38,6 +38,11 @@ body::-webkit-scrollbar {
 }
 
 /* nav links */
+
+.mobile-first img{
+    width: 150px;
+}
+
 nav {
     display: flex;
     padding: 2% 6%;
@@ -45,18 +50,8 @@ nav {
     align-items: center;
 }
 
-nav img {
-    width: 150px;
-    scale: 125%;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
 .nav-links ul li {
-    display: inline-block;
+    list-style-type: none;
     padding: 6px 12px;
     position: relative;
 }
@@ -69,6 +64,7 @@ nav img {
 }
 
 /* nav-links ::after was referenced from w3schools to create a underline effect when hovered */
+
 .nav-links ul li::after {
     content: "";
     width: 0%;
@@ -89,6 +85,7 @@ nav img {
 }
 
 /* heading */
+
 #info {
     width: 90%;
     color: cornsilk;
@@ -110,11 +107,13 @@ nav img {
 }
 
 /* code to outline each letter in h1, reference from stackflow, link in README.md */
+
 .outline {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* footer style */
+
 .footer {
    display :flex; 
    justify-content :center; 
@@ -166,16 +165,19 @@ nav img {
   
 /* mobile first styles */
 
-@media screen and (max-width: 540px) {
-    .social {
-        flex-direction: column;
-        align-items: center;
+@media screen and (min-width: 740px) {
+    .nav-links ul li {
+        display: inline-block;
     }
-    .social>p,
-    .social>a {
-        text-align: center;
-        width: 100%;
+    .mobile-first {
+        display: none;
     }
+    .desktop {
+        display: block;
+    }
+    .desktop img {
+        width: 300px;
+   }
 }
 
 @media (max-width:700px) {
