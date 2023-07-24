@@ -36,6 +36,9 @@ body::-webkit-scrollbar {
     font-family: Geologica;
     src: url(../fonts/Geologica-Regular.ttf);
 }
+header {
+    background-color: #fff;
+}
 
 .header {
     min-height: 100vh;
