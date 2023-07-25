@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: azure;
+    background-color: rgba(108, 245, 245, 0.219);
     line-height: 1.1;
 }
 
@@ -36,7 +36,6 @@ body {
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    margin: 0 10px;
 }
 
 header {
@@ -46,7 +45,7 @@ header {
 /* nav links */
 
 .mobile-first img{
-    width: 150px;
+    width: 400px;
 }
 
 .desktop {
@@ -67,9 +66,10 @@ nav {
 
 .nav-links ul li a {
     text-decoration: none;
-    color: #aca6a6;
+    color: #fc7303;
     font-size: 18px;
     text-transform: uppercase;
+    font-family: 'Roboto';
 }
 
 /* nav-links ::after was referenced from w3schools to create a underline effect when hovered */
@@ -78,7 +78,7 @@ nav {
     content: "";
     width: 0%;
     height: 4px;
-    background: #aca6a6;
+    background: #5e5d5d;
     display: block;
     margin: auto;
     transform: 0.6;
@@ -88,24 +88,37 @@ nav {
     content: "";
     width: 100%;
     height: 2px;
-    background: #aca6a6;
     display: block;
     margin: auto;
 }
 
 #info {
-    color: #aca6a6;
+    color: #fc7303;
     text-align: center;
+    padding: 0 3rem;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-family: 'Geologica';
 }
 
 #info p{
     margin-block: 10px;
-    color: #000000;
+    color: #646363;
+}
+
+.items {
+    background-color: #fff;
+    padding: 0.5rem;
+    box-shadow: 3px 3px 1px 1px #aca6a6;
+}
+
+.img {
+    width: 100%;
+    min-width: 100px;
+    aspect-ratio: 1 / 1;
+    object-fit: fill;
 }
 
 /* footer style */
@@ -116,6 +129,17 @@ h1 {
    align-items: center;
    padding :10px; 
    background-color: #fff;
+}
+
+.footer>p, a {
+    color: #fc7303;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+
+.footer ul li {
+    list-style-type: none;
+    padding: .25rem;
 }
 
 /* mobile first styles */
@@ -133,5 +157,15 @@ h1 {
     .desktop img {
         width: 300px;
    }
+    #container, .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        list-style-type: none;
+    }
+    .footer ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 1.25rem;
+    }
 }
-
