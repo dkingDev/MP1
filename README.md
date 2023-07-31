@@ -90,7 +90,7 @@ This website is live! You can it check out [here](https://dkingdev.github.io/MP1
 
 The home page image was created using  [Vista Logo](https://www.vistaprint.co.uk/logomaker).
 
-Thank you for the image which is being used on the main home page [pngwing]([https://pixabay.com/illustrations/contact-us-help-desk-contact-help-1524408/](https://www.pngwing.com/en/free-png-snrvq)
+Thank you for the image which is being used on the main home page [pngwing](https://www.pngwing.com/en/free-png-snrvq).
 
 ## License
 This project is licenced under the MIT License - see the [LICENSE](License.txt)
