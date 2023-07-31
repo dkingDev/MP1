@@ -73,6 +73,10 @@ nav {
     font-family: 'Roboto';
 }
 
+.nav-links ul li .active {
+    border-bottom: 1px solid #5E5D5D;
+}
+
 /* nav-links ::after was referenced from w3schools to create a underline effect when hovered */
 
 .nav-links ul li::after {
