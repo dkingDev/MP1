@@ -8,62 +8,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5a64efa776.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/form.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
     <title>Contact Us - Spirits home</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><img src="assets/images/logotr.png" alt="log for spirit of the snow"></a>
+    <div class="main-layout">
+        <header>
+            <nav>
+                <a class="mobile-first" href="index.html"><img src="assets/images/logotr5.png" alt="log for spirit of the snow"></a>
+                <a class="desktop" href="index.html"><img src="assets/images/logotr3.jpg" alt="log for spirit of the snow"></a>
                 <div class="nav-links">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="list.html">Locations</a></li>
-                        <li><a class="active" href="contact.html">Contact Us</a></li>
+                        <li><a href="list.html">Resorts</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a class="active">Contact</a></li>
                     </ul>
                 </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <section id="general">
-        <h3>We would love to hear from you! If you have any questions, feedback, or inquiries about our services, please
-            don't hesitate to reach out to us.</h3>
-            <br>
-        <p>Our dedicated team is here to assist you and provide the information you need. Fill out the form below or
-            contact us directly via email or phone. We look forward to connecting with you !</p>
-        </section>
-
-    <section class="main">
-        <div id="info">
-            <h2>Contact Us</h2>
-            <form class="form-box">
-                <input type="text" name="name" placeholder="Enter Your Name" required>
-                <input type="email" name="email" placeholder="Email address" required>
-                <textarea name="message" placeholder="What would you like help with?" required></textarea>
-                <button type="submit"> Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="footer">
-            <div class="social">
+        <main>          
+            <section class="info">
+                <h2>We would love to hear from you! If you have any questions, feedback, or inquiries about our services, please
+                    don't hesitate to reach out to us.</h2>
+                    <br>
+                <p>Our dedicated team is here to assist you and provide the information you need. Fill out the form below or
+                    contact us directly via email or phone. We look forward to connecting with you !</p>
+            </section>
+            <section class="main-contact">
+                <div id="info">
+                    <h2>Contact Us</h2>
+                    <form class="form-box">
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Email address" required>
+                        <textarea name="message" placeholder="What would you like help with?" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="info">
+                    <h2>Find Us</h2>
+                    <p>Spirit of the snow, <br> Equinox House, <br>3.2 Silver Fox Way Cobalt Business Park,<br> Newcastle upon Tyne NE27 0QJ</p>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1923.3732099783128!2d-1.5077131243219073!3d55.020625482866585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTXCsDAxJzE1LjMiTiAxwrAzMCcxNy4wIlc!5e0!3m2!1sen!2suk!4v1690803095107!5m2!1sen!2suk" alt="google maps" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <nav class="footer">
                 <p>&copy;2023 spirit of the snow</p>
-                <a href="contact.html">return to top</a>
-                <div class="social-links">
-                    <p>Follow Us</p>
                     <ul>
-                        <li><a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
                                     class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/" target="_blank" aria-label="instagram"><i
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="instagram"><i
                                     class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="https://www.twitter.com/" target="_blank" aria-label="twiiter"><i
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="twiiter"><i
                                     class="fa-brands fa-twitter"></i></a></li>
                     </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+            </nav>
+        </footer>
+    </div>
 </body>
-
 </html>
