@@ -86,16 +86,11 @@ This website is deployed using GitHub Pages. The following steps to deploy are a
 This website is live! You can it check out [here](https://dkingdev.github.io/MP1/)
 
 ## Attribute
+[Code Institute](https://codeinstitute.net/) for the training which allowed me to design this website.
 
 The home page image was created using  [Vista Logo](https://www.vistaprint.co.uk/logomaker).
 
-Credit for the outline text! [kyle](https://stackoverflow.com/questions/4919076/outline-effect-to-text).
-
-[TheDigitalArtist](https://pixabay.com/illustrations/contact-us-help-desk-contact-help-1524408/) for the Contact us image.
-
-Thank you for the image which is being used on the main home page [FunkyFocus](https://pixabay.com/photos/ski-snow-sports-winter-mountains-2033184/)
-
-[Kirill Zenin](https://www.pexels.com/photo/people-in-a-ski-resort-10878618/) for the image which is on the locations page.
+Thank you for the image which is being used on the main home page [pngwing]([https://pixabay.com/illustrations/contact-us-help-desk-contact-help-1524408/](https://www.pngwing.com/en/free-png-snrvq)
 
 ## License
 This project is licenced under the MIT License - see the [LICENSE](License.txt)
