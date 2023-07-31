@@ -93,6 +93,6 @@ The home page image was created using  [Vista Logo](https://www.vistaprint.co.uk
 Thank you for the image which is being used on the main home page [pngwing](https://www.pngwing.com/en/free-png-snrvq).
 
 ## License
-This project is licenced under the MIT License - see the [LICENSE](License.txt)
+This project is licenced under the MIT License - see the [LICENSE](LICENSE)
 
 
