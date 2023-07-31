@@ -1,4 +1,8 @@
 /* css style reset */
+/* to hide scrollbar without effecting the scroll feature */
+body::-webkit-scrollbar {
+    display: none;
+}
 
 *, *::before, *::after {
     box-sizing: border-box;
