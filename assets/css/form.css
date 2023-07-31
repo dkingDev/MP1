@@ -1,120 +1,6 @@
 
-body {
-    background-color: #ffffff;
-
-}
-
-/* to hide scrollbar without effecting the scroll feature */
-body::-webkit-scrollbar {
-    display: none;
-}
-/* font styles- customized from w3schools reference */
-
-* {
-    font-family: Geologica, PTSans, Roboto;
-    padding: 0;
-    margin:0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: PTSans;
-    src: url(../fonts/PTSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf)
-}
-
-@font-face {
-    font-family: Geologica;
-    src: url(../fonts/Geologica-Regular.ttf);
-}
-
-.main {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 500px;
-    background: url(../images/contact-us.png) no-repeat center center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-#general {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #dcdcdc;
-}
-
-#info {
-    color: #fff8dc;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    font-size: 62px;
-}
-
-/* nav links */
-nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img {
-    width: 150px;
-    scale: 125%;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-.nav-links ul li {
-    display: inline-block;
-    padding: 6px 12px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    text-decoration: none;
-    color: #aca6a6;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-/* nav-links ::after was referenced from w3schools to create a underline effect when hovered */
-.nav-links ul li::after {
-    content: "";
-    width: 0%;
-    height: 4px;
-    background: #aca6a6;
-    display: block;
-    margin: auto;
-    transform: 0.6;
-}
-
-.nav-links ul li:hover::after {
-    content: "";
-    width: 100%;
-    height: 2px;
-    background: #aca6a6;
-    display: block;
-    margin: auto;
-}
-
-/* form heading/paragraph */
-h3,
-p {
-    text-align: center;
-}
-
 /* styles for the contact form */
+
 .form-box {
     display: flex;
     flex-direction: column;
@@ -139,66 +25,41 @@ button {
     align-self: center;
 }
 
-/* footer style */
-.footer {
-    display: block;
-    overflow: hidden;
-    box-sizing: border-box;
+.info {
+    color: #fc7303;
     width: auto;
-    padding: 10px 0;
-    background-color: #dcdcdc;
+    margin: 5px 60px;
+    padding: 10px;
 }
 
-.social {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+.info p {
+    color: #585252;
+    font-family: 'Roboto';
+    line-height: 1.4;
+    padding: 10px 20px;
 }
 
-.social>p {
-    width: 25%;
-    height: 100%;
-    margin-top: 10px;
-
+.map {
+    max-width: 90%;
+    width: 500px;
+    border: 0;
+    height: auto;
 }
 
-.social>a {
-    width: 25%;
-    height: 100%;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
-}
-
-.social .social-links p {
+.main-contact {
     width: 100%;
-    margin-bottom: 2.5px;
-    text-align: center;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    align-items: center; 
+    background: linear-gradient( hsl(0, 0%, 100%), hsla(180, 89%, 81%, 0.8));
 }
 
-.social .social-links li {
-    display: inline-block;
-    padding: 0 10px;
-}
+/* mobile first styles for responsive layout */
 
-/* mobile first styles */
-@media screen and (max-width: 540px) {
-    .social {
-        flex-direction: column;
-        align-items: center;
+@media screen and (max-width: 719px) {
+    .main-contact, .map {
+    grid-template-columns: 1fr;
     }
-
-    .social>p,
-    .social>a {
-        text-align: center;
-        width: 100%;
-    }
-}
-
-@media (max-width:700px) {
-    #info > h2 {
-        font-size: 24px;
-        text-align: center;
-    }  
 }
