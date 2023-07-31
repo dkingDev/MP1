@@ -44,7 +44,7 @@ This website contains the following features:
 
 - Responsive layout throughout to adjust to many different sizes.
 - Nice simple navigation menu which takes you to three different pages and is highlighted for the current page being visited.
-- Contact form, which allows users to request help or further information. This feature also provides a "Thank you" response.
+- Contact form, which allows users to request help or further information. This feature also provides a "Congratulations!" response.
 - Active locations list which allows the user to go directly to the sports centers they choose.
 - Each visited page has a "return to top" feature.
 
