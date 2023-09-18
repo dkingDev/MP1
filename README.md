@@ -34,7 +34,7 @@ The aim for this website, is to provide all the information for skiing activitie
  - [Codeanywhere](https://codeanywhere.com/):
     - Codeanywhere has been used to code and develope this website and to push to GitHub.
  - [W3schools](https://www.w3schools.com):
-    - This CSS library was used to assist with the developement of this website.
+    - This CSS library and JavaScript was used to assist with the developement of this website.
  - [Am I Responsive](https://ui.dev/amiresponsive):
     - Am I Responsive was used to test display compatibilities for all devices.
 
@@ -46,7 +46,7 @@ This website contains the following features:
 - Nice simple navigation menu which takes you to three different pages and is highlighted for the current page being visited.
 - Contact form, which allows users to request help or further information. This feature also provides a "Congratulations!" response.
 - Active locations list which allows the user to go directly to the sports centers they choose.
-- Each visited page has a "return to top" feature.
+- Each visited page has a "Chat pop-up" feature.
 
 ## Design
 
