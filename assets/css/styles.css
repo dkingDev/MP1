@@ -96,6 +96,64 @@ nav {
     margin: auto;
 }
 
+/* style's for the chat popup for all pages*/
+
+.open-btn {
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 130px;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;   
+}
+
+.chat-box h2, b {
+    color: #fc7303;
+    padding: 10px;
+}
+
+.chat-box {
+    max-width: 320px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px #fc7303;
+}
+
+.chat-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+    outline: none;
+}
+
+.chat-box .btn {
+    background-color: hsla(180, 89%, 81%, 1);
+    color: #585252;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 2px 2px #fc7303;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.chat-box .end-chat {
+    background-color: #fc7303;
+    box-shadow: 2px 2px hsla(180, 89%, 81%, 1);
+}
+
 /* styles for top induction and about us section*/
 
 .main {
