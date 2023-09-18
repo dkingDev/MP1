@@ -41,6 +41,17 @@
                 </div>
             </section>
         </main>
+
+        <a href="#" class="btn open-btn" onclick="openChat()">Chat with us</a>
+            <div class="chat-popup" id="chatFeature">
+                <form action="https://formdump.codeinstitute.net" class="chat-box">
+                    <h2>Welcome to Chat</h2>
+                    <label for="message"><B>Message</B></label>
+                    <textarea placeholder="Start Chat..." name="message" required></textarea>
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn end-chat" onclick="closeChat()">End Chat</button>
+                </form>
+            </div>
         
         <footer>
             <nav class="footer">
@@ -56,6 +67,15 @@
             </nav>
         </footer>
     </div>
+
+    <script>
+        function openChat() {
+          document.getElementById("chatFeature").style.display = "block";
+        }
+        function closeChat() {
+          document.getElementById("chatFeature").style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
