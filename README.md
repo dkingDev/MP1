@@ -50,27 +50,45 @@ This website contains the following features:
 
 ## Design
 
-### Typography
+## Typography
 
 Google [fonts](assets/fonts)  was used for this website:
 - Geologica, PTSans, and Roboto are used throughout.
 - Roboto and PTSans are used for the main information.
 
-### Color Palette
+## Color Palette
 
 The color choice for this website was chosen to keep it easy on the eyes and to blend with the images, while providing colors for importance or guidance for navigation and the "return to top" feature.
 The color palette below was created using [Cooloers](https://coolors.co)
 
 ![My color palette](assets/images/colourpalette.png)
 
-## Tesing
-
-All testing for the website was done via a web based validator:
+## Testing 
+testing for the website was done via a web based validator:
 - CSS Validator [jigsaw](https://jigsaw.w3.org/css-validator/) 
 - HTML Validator [W3C](https://validator.w3.org)
 
 ![Validation](assets/images/css-valid.png)
 ![Validation](assets/images/html-valid.png)
+
+## Manual Testing
+Manual testing procedures were implemented to assess the functionality, usability, and responsiveness of the website across different devices and screen sizes. The following areas were tested manually:
+- Functionality: Test all interactive elements, forms, and navigation links to ensure they work as expected.
+- Usability: Evaluate the user interface for intuitiveness and ease of use, gathering feedback from testers.
+- Responsiveness: Manually resize the browser window and test the website's layout and design on various devices.
+
+## Development Life Cycle Procedures
+
+The development life cycle for this project adhered to industry best practices and involved the following phases:
+
+1. **Requirements Gathering:** Identify project goals, user requirements, and functional specifications.
+2. **Design:** Create wireframes, mockups, and prototypes to visualize the website's layout and design.
+3. **Implementation:** Write code according to design specifications, utilizing HTML, CSS, and JavaScript.
+4. **Testing:** Conduct both automated and manual testing to ensure the website meets quality standards.
+5. **Deployment:** Deploy the website using GitHub Pages or another hosting platform, following established procedures.
+6. **Maintenance:** Monitor website performance, address user feedback, and implement updates as needed.
+
+Throughout each phase, version control was managed using Git and GitHub, allowing for collaboration and tracking of changes.
 
 ## Deployment
 
