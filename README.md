@@ -75,7 +75,7 @@ testing for the website was done via a web based validator:
 Manual testing procedures were implemented to assess the functionality, usability, and responsiveness of the website across different devices and screen sizes. The following areas were tested manually:
 - Functionality: Test all interactive elements, forms, and navigation links to ensure they work as expected.
 - Usability: Evaluate the user interface for intuitiveness and ease of use, gathering feedback from testers.
-- Responsiveness: Manually resize the browser window and test the website's layout and design on various devices.
+- Responsiveness: Manually resize the browser window and test the website's layout and design on various devices which can been seen ![Responsive Design](assets/images/responsive.png).
 
 ## Development Life Cycle Procedures
 
