@@ -37,6 +37,8 @@ The aim for this website, is to provide all the information for skiing activitie
     - This CSS library and JavaScript was used to assist with the developement of this website.
  - [Am I Responsive](https://ui.dev/amiresponsive):
     - Am I Responsive was used to test display compatibilities for all devices.
+ - [balsamiq](https://balsamiq.cloud):
+    - balsamiq has been used to design the wireframe for this project.
 
 ## Features
 
@@ -49,6 +51,9 @@ This website contains the following features:
 - Each visited page has a "Chat pop-up" feature.
 
 ## Design
+
+## WireFrame
+
 
 ## Typography
 
