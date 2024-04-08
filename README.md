@@ -11,6 +11,7 @@ This is the start of a website called Spirit of the snow, which has been created
   * [Languages](#Languages)
 * [Features](#Features)
 * [Design](#Design)
+  * [WireFrame](#WireFrame)
   * [Typography](#Typography)
   * [Color Palette](#Color-Palette)
 * [Testing](#Testing)
