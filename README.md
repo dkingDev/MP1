@@ -55,12 +55,14 @@ This website contains the following features:
 ## WireFrame
 
 Desktop Designs:
+
 ![homepage](assets/images/homepage-wireframe.png)
 ![resorts](assets/images/resorts-page-wireframe.png)
 ![about-us](assets/images/about-wireframe.png)
 ![contact](assets/images/contact-wireframe.png)
 
 Tablet designs:
+
 ![homepage](assets/images/home-tb.png)
 ![resorts](assets/images/resorts-tb.png)
 ![about-us](assets/images/about-tb.png)
