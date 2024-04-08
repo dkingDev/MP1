@@ -63,7 +63,7 @@ Desktop Designs:
 Tablet designs:
 ![homepage](assets/images/home-tb.png)
 ![resorts](assets/images/resorts-tb.png)
-![about-us](assets/images/about-us-tb.png)
+![about-us](assets/images/about-tb.png)
 ![contact](assets/images/contact-tb.png)
 
 Mobile Designs:
