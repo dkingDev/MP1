@@ -53,7 +53,25 @@ This website contains the following features:
 ## Design
 
 ## WireFrame
+
+Desktop Designs:
 ![homepage](assets/images/homepage-wireframe.png)
+![resorts](assets/images/resorts-page-wireframe.png)
+![about-us](assets/images/about-wireframe.png)
+![contact](assets/images/contact-wireframe.png)
+
+Tablet designs:
+![homepage](assets/images/home-tb.png)
+![resorts](assets/images/resorts-tb.png)
+![about-us](assets/images/about-us-tb.png)
+![contact](assets/images/contact-tb.png)
+
+Mobile Designs:
+
+![homepage](assets/images/home-mb.png)
+![resorts](assets/images/resorts-mb.png)
+![about-us](assets/images/about-us-mb.png)
+![contact](assets/images/contact-mb.png)
 
 ## Typography
 
