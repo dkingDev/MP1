@@ -53,7 +53,7 @@ This website contains the following features:
 ## Design
 
 ## WireFrame
-
+![homepage](assets/images/homepage-wireframe.png)
 
 ## Typography
 
