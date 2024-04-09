@@ -1,6 +1,7 @@
 # **Spirit of the snow**
 
-This is the start of a website called Spirit of the snow, which has been created for Milestone Project One.
+This is the start of a website called Spirit of the snow, which has been created for Milestone Project One. 
+This website is live! You can it check out [here](https://dkingdev.github.io/MP1/)
 
 ![Responsive Design](assets/images/responsive.png)
 
@@ -112,6 +113,14 @@ testing for the website was done via a web based validator:
 
 ![Validation](assets/images/css-valid.png)
 ![Validation](assets/images/html-valid.png)
+
+- Accessibility Test [Website accessibility test](https://accessibe.com)
+
+![Test](assets/images/Acc-test.png)
+![Test](assets/images/Acc-test2.png)
+![Test](assets/images/Acc-test3.png)
+![Test](assets/images/Acc-test4.png)
+![Test](assets/images/Acc-test5.png)
 
 ## Manual Testing
 Manual testing procedures were implemented to assess the functionality, usability, and responsiveness of the website across different devices and screen sizes. The following areas were tested manually:
